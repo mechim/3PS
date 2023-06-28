@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7735237e15802747aff8d46c0338c01, type: 3}
+  m_Name: PlasmaGun
+  m_EditorClassIdentifier: 
+  gunName: PLASMA
+  damage: 200
+  ammoCapacity: 3
+  timeBetweenShots: 0.5
+  reloadTime: 1
+  canHold: 0
+  color: {r: 1, g: 0, b: 0.8509804, a: 1}
+  bulletPrefab: {fileID: 10095248038468308, guid: 180b17fe28b34c94c9f0096600e27d1d, type: 3}
+  muzzleFlash: {fileID: 8771172462386698687, guid: 32a557a508a69ee4c96473f9712e8246, type: 3}
+  impactEffect: {fileID: 1000011128802252, guid: 96730f8640590934eacb6f860058e7f9, type: 3}

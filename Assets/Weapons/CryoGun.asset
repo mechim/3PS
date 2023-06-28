@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7735237e15802747aff8d46c0338c01, type: 3}
+  m_Name: CryoGun
+  m_EditorClassIdentifier: 
+  gunName: CRYO
+  damage: 5
+  ammoCapacity: 6
+  timeBetweenShots: 0.3
+  reloadTime: 0.3
+  canHold: 0
+  color: {r: 0, g: 0.31764707, b: 1, a: 1}
+  bulletPrefab: {fileID: 10095248038468308, guid: d62bd4dfb4e2e5b4082761effff7adc0, type: 3}
+  muzzleFlash: {fileID: 1407912300330928841, guid: d49d0db9d055c6e4f88c07a2f2624893, type: 3}
+  impactEffect: {fileID: 1329845292236604, guid: 9bba9cf244c53c5439505dfc96fdd11c, type: 3}
